@@ -1,0 +1,190 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+    display: flex;
+    align-items:initial;
+    justify-content:left;
+    /* width: 100%; */
+  }
+ .carousel-inner 
+  {
+    margin-top:50px;
+    width: 1560px;
+}
+ .carousel-inner active  img{
+    width: 1560px;
+    height: 550px;
+
+}
+
+h1{
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.kidsbrand
+{
+     margin-top: 80px;
+     /* width: 100%; */
+}
+.roundbrand{
+     height: 250px; 
+    float: left;
+    width: 20%;
+    border: 3px solid  rgb(21, 16, 43); 
+    border-radius: 50%; 
+    margin-left: 150px;
+    box-shadow: 5px 5px 5px 5px;
+  }
+  .roundbrand img{
+    margin-top: 40px;
+    margin-left: 75px;
+  }
+  .roundbrand1{
+    height: 250px; 
+    float: left;
+    width: 20%;
+    border: 3px solid rgb(21, 16, 43); 
+    border-radius: 50%; 
+    margin-left: 150px;
+    box-shadow: 5px 5px 5px 5px;
+  }
+  .roundbrand1 img{
+    margin-top: 40px;
+    margin-left: 75px;
+  }
+  .roundbrand2{
+    height: 250px; 
+    float: left;
+    width: 20%;
+    border: 3px solid  rgb(21, 16, 43); 
+    border-radius: 50%; 
+    margin-left: 150px;
+    box-shadow: 5px 5px 5px 5px;
+  }
+  .roundbrand2 img{
+    margin-top: 40px;
+    margin-left: 75px;
+  }
+
+  .iconic{
+
+    margin-top: 400px;
+
+
+  }
+  .image-grid {
+    background-color: #FF7A59;
+  margin-top: 300px;
+  margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between grid items */
+    text-align: justify;
+    height: 380px;
+    border-radius:20px;
+  }
+  
+  .image-grid img {
+    box-shadow:5px 5px 5px #929090;
+    margin-top: 20px;
+    margin-left: 90px;
+      border-radius:20px;
+      width: 60%;
+      height:340px;
+      display: block;
+      cursor: pointer;
+      transition: transform .2s;
+  }
+.maindiv{
+ margin-top: 100px;
+
+}
+  .box-images{
+    float: left;
+   margin-left:0px;
+    width: 20%;
+    height: 280px;
+}
+.box-images img{
+  margin-left:0px;
+}
+
+.text{
+    float: left;
+    background: rgb(255, 255, 255);
+    width: 30%;
+    margin-left:180px;
+    height: 480px;
+    margin-top: 100px;
+
+}
+ /* message{
+  margin-top: 250px;
+  margin-left: 200px;
+}  */
+
+
+.text1{
+    float: left;
+    background: rgb(255, 255, 255);
+    width: 30%;
+    margin-left:50px;
+    height: 450px;
+    margin-top: 10px;
+
+}
+.box1-images {
+  
+    background:rgb(255, 255, 255);
+    height: 280px; 
+    margin-top: 800px;
+    margin-left: 650px;
+    
+}
+.kidsbrand1
+{
+     margin-top: 400px;
+     /* width: 100%; */
+}
+
+.squarebrand{
+  height: 250px; 
+ float: left;
+ width: 20%;
+ border: 3px solid  rgb(21, 16, 43); 
+ margin-left: 150px;
+ box-shadow: 5px 5px 5px 5px;
+}
+.squarebrand img{
+ margin-top: 3px;
+ margin-left:0px;
+}
+.squarebrand1{
+ height: 250px; 
+ float: left;
+ width: 20%;
+ border: 3px solid rgb(21, 16, 43); 
+ 
+ margin-left: 150px;
+ box-shadow: 5px 5px 5px 5px;
+}
+.squarebrand1 img{
+ margin-top: 1px;
+ margin-left: 1px;
+}
+.squarebrand2{
+ height: 250px; 
+ float: left;
+ width: 20%;
+ border: 3px solid  rgb(21, 16, 43); 
+ margin-left: 150px;
+ box-shadow: 5px 5px 5px 5px;
+}
+.squaresbrand2 img{
+ margin-top: 50px;
+ margin-left: 75px;
+}

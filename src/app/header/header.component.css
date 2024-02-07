@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.abc1 {
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 80%;
+    float: left;
+    background-color: rgb(5, 5, 4);
+}
+
+.abc2 {
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    width: 20%;
+    float: left;
+    background-color: rgb(5, 5, 4);
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.abc h1 {
+    color: rgba(255, 255, 255, 0.953);
+    font-size: 35px;
+}
+
+#btn {
+    background-color: #00dc37db;
+    color: white;
+    width: 150px;
+    padding: 13px 13px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-top: 5px;
+    margin-left: 140px;
+    height: 50px;
+}
+
+#btn1 {
+    color: white;
+    width: 150px;
+    padding: 13px 13px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-top: 5px;
+    margin-left: 140px;
+    height: 50px;
+}
+
+.main {
+    background-color: #410627;
+    height: 170px;
+    box-shadow: 5px 5px 5px #5d5a5c;
+}
+
+.navbar {
+    height: 80px;
+    width: 50%;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 15px 0;
+    display: flex;
+    background: #6d1f4b;
+    align-items: center;
+    justify-content: start;
+}
+
+.navbar ul li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li a {
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    padding-top: 0px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.search {
+    height: 60px;
+    width: 80%;
+    float: left;
+    margin: 7px;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.droplist {
+    position: absolute;
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.droplist select {
+    width: 100%;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.drop:hover .droplist {
+    display: block;
+    margin-top: 35px;
+}
+.droplist option{
+    line-height:50px;
+}

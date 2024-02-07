@@ -1,0 +1,66 @@
+.container1 {
+    display: flex;
+    align-items:initial;
+    justify-content:left;
+    margin-top: 100px;
+    margin-left: 20px;
+    }
+ 
+.image-grid {
+    background-color: rgb(251, 248, 248); 
+  margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between grid items */
+    text-align: justify;
+    height: 400px;
+  }
+  
+  .image-grid img {
+    box-shadow:5px 5px 5px #929090;
+    margin-top: 15px;
+    margin-left: 30px;
+      border-radius:20px;
+      width: 60%;
+      height:370px;
+      display: block;
+      cursor: pointer;
+      transition: transform .2s;
+  }
+ 
+  
+   /*round categiries bag*/
+  .image-grid2 {
+    background-color: rgb(251, 249, 249);
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 5px; /* Adjust the gap between grid items */
+    text-align: justify;
+    height: 300px;
+  }
+  .image-grid2 img {
+    box-shadow:5px 5px 5px #929090;
+    margin-top: 5px;
+    margin-left: 70px;
+      border-radius:20px;
+      width: 60%;
+      height:300px;
+      display: block;
+      cursor: pointer;
+      transition: transform .2s;
+      float: left;
+  }
+
+  .container{  
+    margin-top: 80px;
+    height:550px;
+    width: 1000px;
+    margin-left: 150px;
+    background-color:rgb(251, 249, 249);;
+   }
+   .card-img h-100 img{
+       height: 150px;
+       width: 660px;
+  }
+  

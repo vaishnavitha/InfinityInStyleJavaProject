@@ -1,0 +1,88 @@
+
+.container 
+  {
+    display: flex;
+    align-items:initial;
+    justify-content:left;
+    margin-top: 150px;
+  }
+ .carousel-inner 
+  {
+    margin-top:50px;
+    width: 1560px;
+  }
+.carousel-item active img
+ {
+    width: 1560px;
+    height: 500px; 
+ }
+.image-grid 
+ {
+    background-color: rgb(232, 227, 227);
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 5px; /* Adjust the gap between grid items */
+    text-align: justify;
+    height: 400px;
+ }
+
+.image-grid img 
+ {
+     box-shadow:5px 5px 5px rgb(232, 227, 227);;
+     margin-top: 15px;
+     margin-left: 50px;
+     border-radius:20px;
+     width: 70%;
+     height:380px;
+     display: block;
+     cursor: pointer;
+     transition: transform .2s;
+  }
+  .image-grid1
+  {
+     background-color: rgb(232, 227, 227);
+     margin-top: 70px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+     gap: 5px; /* Adjust the gap between grid items */
+     text-align: justify;
+     height: 400px;
+  }
+.image-grid1 img 
+  {
+    box-shadow:5px 5px 5px rgb(232, 227, 227);
+    margin-top: 15px;
+    margin-left: 30px;
+      border-radius:20px;
+      width: 70%;
+      height:380px;
+      display: block;
+      cursor: pointer;
+      transition: transform .2s;
+  }
+ /*round categiries bag*/
+  .image-grid2 
+  {
+    background-color: rgb(232, 227, 227);
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 5px; /* Adjust the gap between grid items */
+    text-align: justify;
+    height: 300px;
+  }
+.image-grid2 img 
+ {
+    box-shadow:5px 5px 5px rgb(232, 227, 227);
+    margin-top: 35px;
+    margin-left: 50px;
+    border-radius:20px;
+    width: 60%;
+    height:250px;
+    display: block;
+    cursor: pointer;
+    transition: transform .2s;
+    float: left;
+  }
+ 

@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>
+             Infinite Instyle
+        </title>
+    </head>
+    <body>
+        
+        <div class="abc"> 
+            <div class="abc1">
+                <img src="../../assets/header/Logodesign.jpg" alt="logo" style="height: 80px;width: 80px; float: left;">
+                <h1 style="padding-top:20px;font-family:Open Sans, sans-serif;">InfiniteInStyle</h1>
+            </div> 
+            <div class="abc2"> 
+                <button *ngIf="! isLoggedIn()" id="btn" type="button" class="btn btn-light"routerLink="/login">Login</button>
+                <button *ngIf="isLoggedIn()"  id="btn1" type="button" class="btn btn-danger" (click)="logout()">Logout</button>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="navbar">
+                <ul>
+                    <li><a routerLink="/app-home"><i class="fa fa-home"></i>&nbsp;Home</a></li>
+                    <li class="drop">
+                        <a class="drip" routerLink="/men"><i class="fa fa-male" aria-hidden="true"></i>&nbsp;Men</a>
+                        <div class="droplist" style="height: 200px;width: 200px; border-radius:50px;border: 2px solid #6d1f4b; 
+                        padding: 10px;
+                        border-bottom-right-radius: 10px;">
+                            <!-- Dropdown for Men -->
+                            
+                                <option value="tshirt"style="color:black;" routerLink="/men"><b>T-Shirt</b></option>
+                                <option value="pants"style="color:black;" routerLink="/men"><b>Jeans</b></option>
+                                <option value="shoes"style="color:black;" routerLink="/men"><b>Shirts</b></option>
+                    
+                        </div>
+                    </li>
+                    <li class="drop">
+                        <a class="drip" routerLink="/women"><i class="fa fa-female" aria-hidden="true"></i>&nbsp;Women</a>
+                        <div class="droplist"style="height: 200px;width: 200px; border-radius:50px;border: 2px solid #6d1f4b; 
+                        padding: 10px;
+                        border-bottom-right-radius: 10px;">">
+                            <!-- Dropdown for Women -->
+                            
+                                <option value="dress"style="color:black;" routerLink="/women"><b>T-shirt</b></option>
+                                <option value="Kurti"style="color:black;" routerLink="/women"><b>Kurti</b></option>
+                                <option value="Saree"style="color:black;" routerLink="/women"><b>Saree</b></option>
+                            
+                        </div>
+                    </li>
+                    <li class="drop">
+                     <a class="drip" routerLink="/kids"><i class="fa fa-child" aria-hidden="true"></i>&nbsp;kids</a>
+
+    <div class="droplist"style="height: 200px;width: 200px; border-radius:50px;border: 2px solid #6d1f4b; 
+                         padding: 10px;
+                         border-bottom-right-radius: 10px;">
+                            <!-- Dropdown for Kids -->
+                               <option value="dress"style="color:black;" routerLink="/kids"><b>Dress</b></option>
+                                <option value="kurti"style="color:black;" routerLink="/kids"><b>Ethnick Wear</b></option>
+                                <option value="saree"style="color:black;" routerLink="/kids"><b>T-Shirt</b></option>
+                            
+                        </div>
+                    
+                    </li>
+                    <li><a routerLink="/about-us">About Us</a></li>
+                    <li class="dropdown"> <a *ngIf="isLoggedIn()" routerLink="/allproducts" routerLinkActive="active-link">All products </a></li>
+                    <li *ngIf="isLoggedIn()"> <a *ngIf="!isAdmin()" routerLink="/myOrders"  routerLinkActive="active-link">My Orders</a></li>
+                    <li *ngIf="isLoggedIn()"><a *ngIf="isAdmin()" routerLink="/addNewProduct" routerLinkActive="active-link">Add Product</a></li>
+                    <li *ngIf="isLoggedIn()"><a *ngIf="isAdmin()" routerLink="/showProductDetails" routerLinkActive="active-link">Product Details</a></li>
+                    <li *ngIf="isLoggedIn()"><a *ngIf="isAdmin()" routerLink="/orderInformation" routerLinkActive="active-link"> All Orders</a></li>
+                    <li *ngIf="isLoggedIn()"><a *ngIf="isAdmin()" routerLink="/allUsers" routerLinkActive="active-link"> All Users</a></li>
+                    <!-- <li>&nbsp;&nbsp;&nbsp;&nbsp;<input  type="text" placeholder="Search Courses" name="search"><i class="fa fa-search" style="font-size: 18px;"></i></li> -->
+                    <li *ngIf="isLoggedIn()">&nbsp;&nbsp;&nbsp;&nbsp;<a *ngIf="!isAdmin()" routerLink="/cart"  routerLinkActive="active-link" style="margin-top: 20px;"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>  
+        </div> 
+    </body>
+</html>
